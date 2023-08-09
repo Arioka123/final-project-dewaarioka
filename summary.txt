@@ -1,0 +1,63 @@
+yang dipelajari di sesi 07
+
+-testing :
+
+kita cari referensi 
+-tampilan / antar muka
+-narasi / flow
+-development
+-test / uji coba > udah sesuai atau belum, ada revisi atau engga > scope> versi beta > fix versi beta
+-test by app (menggunakan aplikasi) > diri kita sendiri yang uji 
+	> flow sesuai
+	> alur data aman
+	> return data > sesuai
+
+testing :
+.potongan code / by code
+.function
+.keseluruhan
+.integration
+
+1. sebelum produk di release / production nyiapin beberapa bagian :
+	1) software testing > aplikasi
+	2) flow (sudah sesuai atau belum)
+	3) version > tag
+
+di final project dan sesi 07,
+	-hello > push di sesi 07
+		> membuat web dasar / hello word > repository > dihubungkan ke netlify
+	-company profile / portofolio > push di sesi 08
+		> akan digunakan untuk biodata teman"
+		>base web > CV
+			>version 1.0 beta (percobaan)
+			> uji coba
+			> test pribadi (by code, by flow, by end user)
+			> kritik saran > pengembangan
+	- client > misal nya presensi > uji coba dengan QA
+		> version yang telah di release (diberikan batasan/ by logic)
+		-batasan version 1
+		-batasann version 2
+		-dst
+
+
+------------------
+
+format jshon 
+
+{} > kurung kurawal
+contoh :
+{
+	"nama" : "Arif",
+	"umur" : 30,
+	"status" : true,
+	"data" : [
+	0 : {
+"movie" : "naruto"}, 
+1: {
+"movie" : "dragon ball"}
+];
+
+
+[] > kurung siku / array / indexing
+indexing dimulai 0 = 1
+index = 4 > 1,2,3,4,> caall > 0,1,2,3,4
